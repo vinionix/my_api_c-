@@ -1,74 +1,73 @@
-# API C#
+# API C# — Study Repository
 
-Repositório de estudos para construção de uma API em C#.
+Repositório de estudo para construção de uma API em C#.
 
-A proposta do projeto é praticar fundamentos de backend usando C#, evoluindo a estrutura conforme endpoints, modelos, regras e dependências forem adicionados ao repositório.
+## Estado atual
 
-## Objetivo
+Este projeto ainda está em fase **muito inicial**. No momento, o repositório não possui implementação suficiente para afirmar stack completa, endpoints, banco de dados ou arquitetura de produção.
 
-Registrar a construção de uma API em C#, com foco em organização de projeto, criação de rotas, validação de dados e separação de responsabilidades.
+A documentação foi escrita de forma intencionalmente conservadora: prefiro um README que diga “ainda não existe” do que atribuir ao projeto funcionalidades que o código não prova.
 
-## Tecnologias e conceitos
+## Objetivo de aprendizado
 
-A documentação não afirma uma stack específica além de C#, porque os arquivos atuais do repositório não deixam claro quais frameworks, dependências ou comandos de execução estão consolidados.
-
-Conceitos relacionados ao objetivo do projeto:
+Usar este espaço para praticar, quando o desenvolvimento continuar:
 
 - C#;
-- APIs backend;
-- rotas/endpoints;
-- models/DTOs;
-- validação de entrada;
-- serviços e regras de negócio;
-- organização de camadas;
-- documentação de uso.
+- ASP.NET Core Web API;
+- endpoints REST;
+- DTOs;
+- validação;
+- separação em camadas;
+- persistência;
+- migrations;
+- testes;
+- OpenAPI;
+- Docker.
 
-## Estrutura geral
-
-No estado atual, não há informação suficiente para descrever com segurança a árvore do projeto, endpoints implementados, banco de dados ou dependências.
-
-Esta seção deve ser atualizada quando a estrutura técnica estiver mais clara no repositório.
-
-## Como executar
-
-Ainda não há um processo confiável de execução documentado nos arquivos disponíveis.
-
-Quando a base da API estiver consolidada, esta seção deve indicar:
+## Roadmap sugerido
 
 ```text
-1. versão do .NET utilizada
-2. comando de restauração de dependências
-3. comando para executar a API
-4. variáveis de ambiente, se houver
-5. exemplos de requisições
+Projeto ASP.NET Core
+       ↓
+1 domínio pequeno
+       ↓
+DTOs + validação
+       ↓
+Endpoints
+       ↓
+Service / regras
+       ↓
+Persistência
+       ↓
+Migrations
+       ↓
+Testes de integração
+       ↓
+Docker
 ```
 
-## Status atual
+## Critério para considerar o projeto “apresentável”
 
-Projeto em fase inicial de documentação/organização.
+Antes de usar este repo como portfólio, ele deveria ter pelo menos:
 
-O README anterior continha apenas o título. Não foram identificados arquivos suficientes para afirmar funcionalidades ou instruções técnicas sem risco de inventar informações.
+- aplicação executável;
+- domínio claramente definido;
+- endpoints documentados;
+- persistência ou uma decisão explícita de não usá-la;
+- testes;
+- instruções de execução reproduzíveis;
+- exemplos de requisição/resposta.
 
-## Evolução do projeto
+## Posição no portfólio
 
-- Criação do repositório para estudos de API em C#.
-- Fase atual: documentação inicial e preparação para organizar a base técnica.
+**Recomendação atual: deixar privado ou arquivar.**
 
-## Próximos passos sugeridos
+O nome do repositório e a ausência de implementação relevante geram mais ruído do que sinal para recrutadores. Caso o estudo em C# seja retomado, vale até criar/renomear para um projeto com objetivo específico em vez de manter um repo genérico.
 
-- Adicionar a estrutura real da API.
-- Informar versão do .NET/C# utilizada.
-- Documentar endpoints implementados.
-- Adicionar exemplos de requisições.
-- Incluir instruções de execução local.
+## Documentação
 
-## Aprendizados esperados
-
-- Estruturação de uma API backend.
-- Organização de responsabilidades em C#.
-- Criação de endpoints e tratamento de requisições.
-- Escrita de documentação técnica fiel ao código.
+- [Technical Overview](docs/TECHNICAL_OVERVIEW.md) — estado atual, escopo sugerido e critérios para evolução.
 
 ## Autor
 
-Desenvolvido por [vinionix](https://github.com/vinionix).
+Repositório de estudos de [Vinícius Fidelis](https://github.com/vinionix).
